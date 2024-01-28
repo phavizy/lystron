@@ -139,6 +139,9 @@ header{
         /* Adjust as needed */
     background-repeat: no-repeat;
 }
+li{
+    color:rgb(59, 59, 111) ;
+}
 body{
     margin-top: 0px;
     margin-left: 0px;
