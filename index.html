@@ -13,7 +13,7 @@
             <ul id="navlist">
                 <li><a href="#home"><button class="navbuttons" id="homeb">Home</button></a></li>
                 <li><a href="#about"><button class="navbuttons" id="ab">About Us</button></a></li>
-                <li><button class="navbuttons">Contact Us</button></li>
+                <li><a href="#contact"><button class="navbuttons">Contact Us</button></a></li>
             </ul>
         </section>
     </header>
@@ -74,17 +74,17 @@
             </p>
         </section>
         </section>
-        <section>
+        <section id="contact">
             <h2>Contact Us:</h2>
                 Contact Us today to explore how our welding and corrosion expertise can contribute to the success and
                 longevity of your projects.
-            <form action="report">
+            <form action="report" method="post">
                 <ul>
-                    <li>Name: <input spellcheck="true"></input></li>
+                    <li>Name: <input type="text" required></input></li>
                    
-                   <li>Email: <input></input></li>
-                   <li>Comment: <textarea placeholder="Enquries are welcome here"></textarea></li> 
-                     <button>Send</button>
+                   <li>Email: <input type="email" required></input></li>
+                   <li>Comment:</li> <textarea placeholder="Inquries are welcome here" required></textarea>
+                    <li><button type="submit" id="send">Send</button></li> 
                 </ul>
             
             </form>
