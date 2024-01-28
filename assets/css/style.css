@@ -57,6 +57,10 @@ textarea {
     margin-left: 40px;
 
 }
+
+#send{
+    margin-left: 200px;
+}
              
 }
 
@@ -114,6 +118,10 @@ textarea {
             margin-left: 40px;
     
         }
+
+#send {
+    margin-left: 280px;
+}
 
 }
 
@@ -179,7 +187,7 @@ input {
     border: none;
     padding: 20px;
     padding-inline: 40px;
-    margin-left: 280px;
+    
 }
 ul{
     list-style: none;
